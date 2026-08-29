@@ -163,6 +163,8 @@ main {
 #skills ul {
     list-style-type: none;
     display: flex;
+    flex: 1;
+    flex-wrap: wrap;
     gap: 20px;
     padding: 10px 0;
 }
@@ -224,6 +226,8 @@ footer h2 {
 footer p {
     color: white;
     padding: 6px 0;
+    max-width: 100%;
+    overflow-wrap: break-word;
 }
 
 footer p a {
